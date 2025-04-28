@@ -1,0 +1,34 @@
+header {
+    background-color: #ffffff;
+    padding: 1rem 2rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo svg {
+    width: clamp(1.5rem, calc(1.5rem + 1vw), 2.5rem);
+    height: clamp(1.5rem, calc(1.5rem + 1vw), 2.5rem);
+}
+
+.header-title h1 {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #333;
+}
